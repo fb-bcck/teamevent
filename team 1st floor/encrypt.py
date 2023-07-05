@@ -42,7 +42,7 @@ def decrypt_file(file_path, key):
 # Example usage
 file_path = 'original.txt'  # This is the lost file
 
-# Reading salt from enironment variable.
+# Reading salt from environment variable.
 salt = os.environ["SALT"];
 # verysecretpassword should be found out
 key = passwort_to_key("verysecretpassword", salt)
